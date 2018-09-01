@@ -1,0 +1,1 @@
+netstat -i | awk '/Link/{print$1}'
